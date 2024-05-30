@@ -10,7 +10,7 @@ public class CashwiseAuthorization {
         String url = Config.getProperty("cashWiseApiUrl") + "/api/myaccount/auth/login";
         RequestBody requestBody = new RequestBody();
         requestBody.setEmail("bedalbekovelaman@gmail.com");
-        requestBody.setPassword("Mtmmtm031299");
+        requestBody.setPassword("elamanbedalbekov");
 
         Response response = RestAssured.given().contentType(ContentType.JSON)
                 .body(requestBody).post(url);
